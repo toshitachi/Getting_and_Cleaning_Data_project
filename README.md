@@ -20,13 +20,12 @@ You should create one R script called run_analysis.R that does the following.
 •	Appropriately labels the data set with descriptive activity names. 
 •	Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
 
-
-
 What you find in this repository:
 •	README.md: this file
 •	CodeBook.md: information about raw and tidy data set and elaboration made to transform them
 •	run_analysis.R: R script to transform raw data set in a tidy one
 •	tidy.text: the results from running run_analysis.R
+
 Data Raw:
 •	'features.txt': List of all features.
 •	'activity_labels.txt': List of class labels and their activity name.
@@ -36,6 +35,7 @@ Data Raw:
 •	'test/X_test.txt': Test set.
 •	'test/y_test.txt': Test labels.
 •	'test/subject_test.txt': ID's of subjects in the training data
+
 A brief description of the script:
 You should create one R script called run_analysis.R that does the following. 
 1.	Merges the training and the test sets to create one data set.
