@@ -1,9 +1,38 @@
-**CODE BOOK**
+**#CODE BOOK#**
 
 This document describes the data, variables, transformations, and work performed on the HAR data set
 
-******************************************************************
+************************************************************************************************************************************
 
+**#Data File#**
+
+The files downloaded from the URL and unzipped are the following:
+-X_traing.txt: training data set
+-y_train.txt: training activities
+-x_test.txs: test data set
+-y_test/txt: test activities
+-subject_train.txt: individual ids for the training data set
+-subject_test.text: individual ids for the test data set
+leatures.txt: column names for datasets
+activities_labels.txt: activities names
+
+
+**#Subject and Activity#**
+
+These variables identify the unique subject/activity pair the variables relate to:
+
+-Subject: the integer subject ID.
+-Activity: the string activity name: 
+ -Walking
+ -Walking Upstairs
+ -Walking Downstairs
+ -Sitting
+ -Standing
+ -Laying
+
+**#Measurement Means#**
+
+All variables are the mean of a measurement for each subject and activity. This is indicated by the initial Mean in the variable name.
 
 "TimeBodyAccelerometerMean()-X"
 
